@@ -1,0 +1,152 @@
+@font-face {
+  font-family: 'Barlow';
+  src: url("fonts/Barlow-Thin.ttf") 
+    
+    format("truetype");
+}
+@font-face {
+  font-family: 'Fraunces';
+  src: url("fonts/Fraunces-ExtraBold.ttf") format("truetype");
+}   
+*
+{
+  font-family: Barlow, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#middle-header h1, #contact a, h1, #presentation a, .name-design
+{
+  font-family: Fraunces, sans-serif;
+}
+*
+{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 35px;
+}
+a
+{
+  text-decoration: none;
+/*     color:  #000; */
+}
+li
+{
+  list-style-type: none;
+  padding: 5%;
+}
+body
+{
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+}
+#first-bloc
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+#first-bloc ul
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+}
+#first-bloc
+{
+  padding: 0;
+}
+header
+{
+  width: 100%;
+  background-image: url("images/mobile/image-header.jpg");
+  height: 500px;
+  background-color: #fff;
+}
+#first-bloc img
+{
+  width: 25%;
+  margin: 15px 0px 0px 18px;
+}
+ 
+#middle-header h1
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+#middle-header img
+{
+  display: none;
+}
+section
+{
+  background-color: #fff;
+  color: #000;
+  display: grid;
+}
+
+[class="products"] img
+{
+  
+}
+#presentation
+{
+/*     display: grid;
+  grid-template-columns: auto;
+   margin: 0; */
+}
+
+#right-audiance/*, #graphic, #photography*/
+{
+  display: flex;
+  flex-direction: column-reverse;
+  height: ;
+   
+}
+#graphic, #photography
+{
+/*     background-color: #90e0e0; */
+  height: 700px;
+}
+#graphic h1, #photography h1
+{
+  margin-top: 0px;
+}
+#graphic h1, #graphic p, #photography h1, #photography p
+{
+
+}
+aside
+{
+}
+#client
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  text-align: center;
+}
+#client img
+{
+  width: 25%;
+  margin-top: 15px;
+  border: none;
+  border-radius: 100%;
+}
+#client p
+{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+#product-image
+{
+  display: flex;
+  margin-bottom: -10px;
+}
