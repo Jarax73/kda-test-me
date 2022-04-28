@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Barlow';
+  src: url("fonts/Barlow-Thin.ttf") 
+    
+    format("truetype");
+}
+@font-face {
+  font-family: 'Fraunces';
+  src: url("fonts/Fraunces-ExtraBold.ttf") format("truetype");
+}   
 *
   {
     font-family: Barlow, sans-serif;
@@ -93,10 +103,12 @@
     margin-top: ;
     margin-left: auto;
     margin-right: auto;
-    font-size: 200%;
+    height: 12px;
+    font-size: 220%;
     font-weight: bolder;    
     letter-spacing: 15px;
     align-self: flex-end;
+    opacity: 1;
   }
   #middle-header
   {
@@ -140,6 +152,7 @@
     align-items: center;
     width: 100%;
     padding: 0;
+    opacity: ;
   }
   #supp-info a
   {
@@ -221,8 +234,8 @@
     margin-right: auto;
     margin-bottom: 40px;
     text-align: center;
-    font-weight: 520;
-   
+    font-weight: 620;
+    
   }
   
   [class="feedback"]
