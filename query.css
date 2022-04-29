@@ -1,3 +1,5 @@
+/*defining fonts*/
+
 @font-face {
   font-family: 'Barlow';
   src: url("fonts/Barlow-Thin.ttf") 
@@ -8,262 +10,251 @@
   font-family: 'Fraunces';
   src: url("fonts/Fraunces-ExtraBold.ttf") format("truetype");
 }   
+/*single elements style*/
 *
-  {
-    font-family: Barlow, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  #middle-header h1, #contact a, h1, #presentation a, .name-design
-  {
-    font-family: Fraunces, sans-serif;
-  }
-  
-  h1, p
-  {
-    font-weight: bold;
-    opacity: 0.7;
-  }
-  
-  body
-  {
-    background-color: #fff;
-  }
-  #main-design
-  {
-    display: flex;
-    flex-direction: column;
-  }
-  header
-  {
-    width: 100%;
-    margin-bottom: -2%;
-    max-height: ;
-    color: #fff;
-  } 
-  #background img
-  {
-      width:  100%;
-  }
-  #logo
-  {
-    margin-top: ;
-  }
-  header a 
-  {
-    color:  #fff;
-    font-weight: bold;
-  }
- 
-  nav
-  {
-      display: flex;
-      fle-direction: column;
-      justify-content: ;
-      margin-right: 0;
-      margin-top: 0;
-  }
-  #contact
-  {
-    border: none;
-    background-color: inherit;
-    border-radius:  none;
-  }
-  #contact a 
-  {
-    text-transform: none;
-    color: #fff;
-    font-family: Barlow, Arial, sans-serif;
-  }
-  header h1
-  {
-    margin-top: auto;
-margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 100%;
-    font-weight: bolder;    
-    letter-spacing: 1px;
-    align-self: flex-end;
-    color: #fff;
-  }
-  #middle-header
-  {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  #middle-header p
-  {
-    width: 100%;
-    display: none;
-  }
-  section
-  {
-    height: 100%;
-    background-color: #fff;
-  }
-  
-  #supp-info a
-  {
-    text-decoration: underline yellow;  
-  }
-  #good-design a
-  {
-    text-decoration: underline pink;
-  }
-  #supp-info h1, #supp-info p, #good-design h1, #good-design p
-  {
-    text-align: left;
-    width: 56%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5%;
-    font-weight: 550;   
-  }
-  #firsts-elements, #right-audiance, #multimedia
-  {
-    display: flex;
-    flex-direction: column;
-  }
+{
+  font-family: Barlow, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#middle-header h1, #contact a, h1, #presentation a, .name-design
+{
+  font-family: Fraunces, sans-serif;
+}
+ul
+{
+  display: flex;
+  flex-direction: row;
+}
+a
+{
+  text-decoration: none;
+  color:  #000;
+}
+li
+{
+  list-style-type: none;
+  padding: 20px;
+}
+h1, p
+{
+  font-weight: bold;
+  opacity: 0.6;
+}
+/*main elements style*/
+body
+{
+  background-color: #fff;
+}
+#main-design
+{
+  display: flex;
+  flex-direction: column;
+}
+/*defining all header elements step by step */
+
+header
+{  
+  width: 100%;
+  color: #fff;
+}
+header h1
+{
+  margin: auto;
+  font-size: 100%;
+  font-weight: bolder;    
+  letter-spacing: 3px;
+  color: #fff;
+}
+header a 
+{
+  color:  #fff;
+  font-weight: bold;
+}
+#middle-header
+{
+  display: flex;
+  flex-direction: column;
+}
+#middle-header p
+{
+  display: none;
+}
+nav
+{
+  display: flex;
+  margin: 0;
+}
+#contact
+{
+  border: none;
+  background-color: inherit;
+  border-radius:  none;
+}
+#contact a 
+{
+  text-transform: none;
+  color: #fff;
+  font-family: Barlow, Arial, sans-serif;
+}
+
+/*defining the style of all section elements */
+
+section
+{
+  background-color: #fff;
+}
+
+/*defining the style of differents parts of the section */
+
+#firsts-elements, #right-audiance, #multimedia
+{
+  display: flex;
+  flex-direction: column;
+}
 #right-audiance
-  {
-    flex-direction: column-reverse;
-  }
-  #egg-background, #cup-background
-  {
-    border: none;
-    width: 100%;
-  }
-  ul
-  {
-    display: flex;
-    flex-direction: row;
-  }
-  a
-  {
-    text-decoration: none;
-    color:  #000;
-  }
-  li
-  {
-    list-style-type: none;
-    padding: 20px;
-  }
-  #graphic p, #photography p
-  {
-    width: 55%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-bottom:;
-    font-weight: bold;
-  }
-  #graphic h1, #photography h1
-  {
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -200px;
-    margin-bottom: 30px;
-    text-align: center;
-    opacity: 0.7;
-  }
-  aside
-  {
-    height: 950px;
-  }
-  aside h1
-  {
-    text-align: center;
-    margin-top: 16%;
-    margin-bottom: 7%;
-  }
-  aside p
-  {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    text-align: center;
-    font-weight: 620;
-    
-  }
+{
+  flex-direction: column-reverse;
+}
+
+/*defining div inside differents parts */
+
+#supp-info a
+{
+  text-decoration: underline yellow;  
+}
+#good-design a
+{
+  text-decoration: underline pink;
+}
+#supp-info h1, #supp-info p, #good-design h1, #good-design p
+{
+  text-align: left;
+  width: 56%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  font-weight: bold;   
+}
   
-  [class="feedback"]
-  {
-    width: 300px;
-  }
-  [class="name-design"]
-  {
-    margin-bottom: 5px;
-  }
-  #product-image
-  {
-    display: flex;  
-  }
-  #product-image img
-  {
-    width:100%;
-  }
-  
-  #client
-  {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-    
-  #client img
-  {
-    border: none;
-    width: 100%;
-    border-radius: 100%;
-  }
-  .photo-client
-  {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15%;
-    width: 20%;
-  }
-  .name-design
-  {
-    opacity: 0.8;
-  }
-  #design-footer p:nth-child(1)
-  {
-    filter: invert(46%);
-  }
-  #design-footer a
-  {
-    color: #2e848a;
-  }
-  
-  footer
-  {
-    background-color: #84dbd7;
-    margin-top: -5px;
-    width: 100%;
-    height: 150px;
-  }
-  #design-footer 
-  {
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-weight: 300px;
-    margin-top: 20px;
-  }
-  #contacts img
-  {
-    padding: 5px;
-  }
-  #link-contact
-  {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  } 
+#egg-background, #cup-background
+{
+  border: none;
+  width: 100%;
+}
+#graphic img, #photography img
+{
+  height: 450px;
+}
+#graphic p, #photography p
+{
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 2%;
+  font-weight: bolder;
+}
+#graphic h1, #photography h1
+{
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  text-align: center;
+  opacity: 0.7;
+}
+/*defining the style of aside elements*/
+
+aside
+{
+  height: 950px;
+}
+aside h1
+{
+  text-align: center;
+}
+aside p
+{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 620;
+}
+#client
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+} 
+[class="feedback"]
+{
+  width: 300px;
+}
+[class="name-design"]
+{
+  margin-bottom: 5px;
+  opacity: 0.8;
+}
+#client img
+{
+  border: none;
+  width: 100%;
+  border-radius: 100%;
+}
+.photo-client
+{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15%;
+  width: 20%;
+}
+
+
+#product-image
+{
+  display: flex;  
+}
+#product-image img
+{
+  width:100%;
+}
+
+/*styling footer elements */
+
+footer
+{
+  background-color: #84dbd7;
+  width: 100%;
+  height: 150px;
+}
+#design-footer 
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 300px;
+  margin-top: 20px;
+}
+#design-footer p:nth-child(1)
+{
+  filter: invert(46%);
+}
+#design-footer a
+{
+  color: #2e848a;
+}
+#link-contact
+{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#contacts img
+{
+  padding: 5px;
+}
