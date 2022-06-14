@@ -107,8 +107,6 @@ section
   background-color: #fff;
 }
 
-/*defining the style of differents parts of the section */
-
 #firsts-elements, #right-audiance, #multimedia
 {
   display: flex;
